@@ -1,0 +1,977 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "email": "demo@user.com",
+      "name": "Demo User",
+      "password": "demo123"
+    },
+    {
+      "name": "Niranjan",
+      "email": "niru@gmail.com",
+      "password": "123456",
+      "id": 2
+    },
+    {
+      "name": "vijay",
+      "email": "vijay@gmail.com",
+      "password": "123456",
+      "id": 3
+    },
+    {
+      "name": "Preetham D",
+      "email": "pree@gmail.com",
+      "password": "123456",
+      "id": 4
+    },
+    {
+      "name": "Temp",
+      "email": "tep@gmail.com",
+      "password": "123456",
+      "id": 5
+    }
+  ],
+  "bookings": [
+    {
+      "userId": 2,
+      "tripId": 5,
+      "tripName": "New York City Break",
+      "destination": "New York, USA",
+      "numTravelers": 2,
+      "startDate": "2025-11-13",
+      "totalPrice": 3000,
+      "date": "2025-11-05T11:17:35.946Z",
+      "id": 1
+    },
+    {
+      "userId": 2,
+      "tripId": 7,
+      "tripName": "Greek Islands Explorer",
+      "destination": "Santorini, Greece",
+      "numTravelers": 1,
+      "startDate": "2025-11-14",
+      "totalPrice": 2200,
+      "date": "2025-11-05T11:17:48.828Z",
+      "id": 2
+    },
+    {
+      "userId": 5,
+      "tripId": 1,
+      "tripName": "Parisian Dream",
+      "destination": "Paris, France",
+      "numTravelers": 1,
+      "startDate": "2025-11-06",
+      "totalPrice": "73224.00",
+      "date": "2025-11-06T20:48:09.184Z",
+      "id": 3
+    },
+    {
+      "userId": 5,
+      "tripId": 2,
+      "tripName": "Tokyo Adventure",
+      "destination": "Tokyo, Japan",
+      "numTravelers": 1,
+      "startDate": "2025-11-11",
+      "totalPrice": "2700.00",
+      "date": "2025-11-06T20:48:38.918Z",
+      "id": 4
+    }
+  ],
+  "favorites": [
+    {
+      "id": 3,
+      "userId": 3,
+      "tripId": 30
+    },
+    {
+      "id": 4,
+      "userId": 1,
+      "tripId": 1
+    },
+    {
+      "id": 5,
+      "userId": 1,
+      "tripId": 4
+    },
+    {
+      "userId": 4,
+      "tripId": 2,
+      "id": 6
+    },
+    {
+      "userId": 4,
+      "tripId": 1,
+      "id": 7
+    },
+    {
+      "userId": 5,
+      "tripId": 4,
+      "id": 8
+    }
+  ],
+  "reviews": [
+    {
+      "id": 1,
+      "tripId": 1,
+      "userId": 1,
+      "userName": "Demo User",
+      "rating": 5,
+      "comment": "Amazing trip — highly recommended!",
+      "date": "2025-11-01T10:00:00.000Z"
+    },
+    {
+      "id": 2,
+      "tripId": 4,
+      "userId": 2,
+      "userName": "Niranjan",
+      "rating": 4,
+      "comment": "Great beaches and friendly locals.",
+      "date": "2025-10-18T12:30:00.000Z"
+    },
+    {
+      "id": 3,
+      "tripId": 5,
+      "userId": 3,
+      "userName": "vijay",
+      "rating": 4,
+      "comment": "Perfect city break, lots to see.",
+      "date": "2025-10-25T08:45:00.000Z"
+    },
+    {
+      "id": 4,
+      "tripId": 7,
+      "userId": 1,
+      "userName": "Demo User",
+      "rating": 5,
+      "comment": "Santorini sunsets were unforgettable.",
+      "date": "2025-11-02T16:20:00.000Z"
+    },
+    {
+      "id": 5,
+      "tripId": 30,
+      "userId": 2,
+      "userName": "Niranjan",
+      "rating": 5,
+      "comment": "Kerala backwaters were so peaceful.",
+      "date": "2025-11-03T09:10:00.000Z"
+    },
+    {
+      "id": 6,
+      "tripId": 13,
+      "userId": 3,
+      "userName": "vijay",
+      "rating": 4,
+      "comment": "Amazing wildlife experience.",
+      "date": "2025-09-30T14:00:00.000Z"
+    },
+    {
+      "id": 7,
+      "tripId": 22,
+      "userId": 1,
+      "userName": "Demo User",
+      "rating": 5,
+      "comment": "Trekking was challenging but rewarding.",
+      "date": "2025-08-12T11:00:00.000Z"
+    },
+    {
+      "id": 8,
+      "tripId": 15,
+      "userId": 2,
+      "userName": "Niranjan",
+      "rating": 4,
+      "comment": "Overwater bungalows were incredible.",
+      "date": "2025-07-21T07:30:00.000Z"
+    },
+    {
+      "id": 9,
+      "tripId": 23,
+      "userId": 3,
+      "userName": "vijay",
+      "rating": 4,
+      "comment": "Beautiful coastal drive and great food.",
+      "date": "2025-06-15T13:40:00.000Z"
+    },
+    {
+      "id": 10,
+      "tripId": 31,
+      "userId": 1,
+      "userName": "Demo User",
+      "rating": 5,
+      "comment": "New Zealand had so many activities — loved it.",
+      "date": "2025-05-05T10:10:00.000Z"
+    },
+    {
+      "tripId": 2,
+      "userId": 4,
+      "userName": "Preetham D",
+      "rating": 5,
+      "comment": "Awesome place for long trips",
+      "date": "2025-11-06T17:46:07.785Z",
+      "id": 11
+    },
+    {
+      "tripId": 3,
+      "userId": 4,
+      "userName": "Preetham D",
+      "rating": 1,
+      "comment": "not that good facilities ",
+      "date": "2025-11-06T17:46:58.424Z",
+      "id": 12
+    },
+    {
+      "tripId": 31,
+      "userId": 2,
+      "userName": "Niranjan",
+      "rating": 3,
+      "comment": "okay it was nice trip",
+      "date": "2025-11-06T17:54:49.862Z",
+      "id": 13
+    },
+    {
+      "tripId": 5,
+      "userId": 2,
+      "userName": "Niranjan",
+      "rating": 3,
+      "comment": "not that best place to visit",
+      "date": "2025-11-06T17:56:10.059Z",
+      "id": 14
+    },
+    {
+      "tripId": 1,
+      "userId": 5,
+      "userName": "Temp",
+      "rating": 3,
+      "comment": "it is good but not best place to visit",
+      "date": "2025-11-06T20:49:18.215Z",
+      "id": 15
+    }
+  ],
+  "tripsdata": [
+    {
+      "id": 1,
+      "name": "Parisian Dream",
+      "destination": "Paris, France",
+      "image": "https://miro.medium.com/v2/resize:fit:4800/format:webp/1*l5eBK3zPd1jOWXwHrsdlAg.jpeg",
+      "description": "Explore the city of love, visit the Eiffel Tower, and enjoy delicious pastries.",
+      "price": 1200,
+      "durationDays": 7,
+      "rating": 3.9,
+      "category": "City Break"
+    },
+    {
+      "id": 2,
+      "name": "Tokyo Adventure",
+      "destination": "Tokyo, Japan",
+      "image": "https://images.unsplash.com/photo-1542051841857-5f90071e7989?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1770&q=80",
+      "description": "Experience the bustling city life, ancient temples, and vibrant culture of Tokyo.",
+      "price": 2500,
+      "durationDays": 10,
+      "rating": 4.8,
+      "category": "City Break"
+    },
+    {
+      "id": 3,
+      "name": "Swiss Alps Getaway",
+      "destination": "Interlaken, Switzerland",
+      "image": "https://images.unsplash.com/photo-1537815749002-de6a533c64db?auto=format&fit=crop&w=1600&q=80",
+      "description": "Breathe in the fresh mountain air and hike through the stunning Swiss Alps.",
+      "price": 1800,
+      "durationDays": 6,
+      "rating": 4.9,
+      "category": "Mountain"
+    },
+    {
+      "id": 4,
+      "name": "Bali Beach Escape",
+      "destination": "Bali, Indonesia",
+      "image": "https://images.unsplash.com/photo-1537996194471-e657df975ab4?auto=format&fit=crop&w=1600&q=80",
+      "description": "Relax on sandy beaches, surf the waves, and find your inner peace.",
+      "price": 900,
+      "durationDays": 8,
+      "rating": 4.6,
+      "category": "Beach"
+    },
+    {
+      "id": 5,
+      "name": "New York City Break",
+      "destination": "New York, USA",
+      "image": "https://images.unsplash.com/photo-1496442226666-8d4d0e62e6e9?auto=format&fit=crop&w=1600&q=80",
+      "description": "The city that never sleeps. See Times Square, Central Park, and Broadway shows.",
+      "price": 1500,
+      "durationDays": 5,
+      "rating": 4.5,
+      "category": "City Break"
+    },
+    {
+      "id": 6,
+      "name": "Ancient Rome",
+      "destination": "Rome, Italy",
+      "image": "https://images.unsplash.com/photo-1552832230-c0197dd311b5?auto=format&fit=crop&w=1600&q=80",
+      "description": "Walk through history at the Colosseum, Roman Forum, and Vatican City.",
+      "price": 1300,
+      "durationDays": 7,
+      "rating": 4.6,
+      "category": "Historical"
+    },
+    {
+      "id": 7,
+      "name": "Greek Islands Explorer",
+      "destination": "Santorini, Greece",
+      "image": "https://images.unsplash.com/photo-1570077188670-e3a8d69ac5ff?auto=format&fit=crop&w=1600&q=80",
+      "description": "Experience the white-washed buildings, crystal-clear waters, and stunning sunsets of the Greek Islands.",
+      "price": 2200,
+      "durationDays": 10,
+      "rating": 4.8,
+      "category": "Beach"
+    },
+    {
+      "id": 8,
+      "name": "Moroccan Magic",
+      "destination": "Marrakech, Morocco",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSSEAS1-7sRKl7_sz8_pxrpHkjbo2CFk9apuA&s",
+      "description": "Wander through vibrant souks, stay in traditional riads, and experience desert adventures.",
+      "price": 1100,
+      "durationDays": 8,
+      "rating": 4.4,
+      "category": "Cultural"
+    },
+    {
+      "id": 9,
+      "name": "Australian Outback Adventure",
+      "destination": "Uluru, Australia",
+      "image": "https://images.unsplash.com/photo-1529108190281-9a4f620bc2d8?auto=format&fit=crop&w=1600&q=80",
+      "description": "Discover the ancient landscapes, indigenous culture, and natural wonders of the Red Centre.",
+      "price": 2800,
+      "durationDays": 12,
+      "rating": 4.3,
+      "category": "Adventure"
+    },
+    {
+      "id": 10,
+      "name": "Inca Trail Experience",
+      "destination": "Machu Picchu, Peru",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSBO34RylzqT8Fb_NT3S432q0PzC0VXIJ_chQ&s",
+      "description": "Trek the legendary Inca Trail to the mystical citadel of Machu Picchu.",
+      "price": 1900,
+      "durationDays": 9,
+      "rating": 4.9,
+      "category": "Adventure"
+    },
+    {
+      "id": 11,
+      "name": "Nordic Lights Hunt",
+      "destination": "Tromsø, Norway",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT3bB1OH5uyQTKjeFxvACycjHC-PMrRKTOQ2A&s",
+      "description": "Chase the Northern Lights and experience the magic of the Arctic Circle.",
+      "price": 2400,
+      "durationDays": 6,
+      "rating": 4.9,
+      "category": "Nature"
+    },
+    {
+      "id": 12,
+      "name": "Safari Adventure",
+      "destination": "Serengeti, Tanzania",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTZ3cg2jmYIArXadu1dOMv36Im7MZRnIwAAiw&s",
+      "description": "Witness the great migration and spot the Big Five in their natural habitat.",
+      "price": 3500,
+      "durationDays": 8,
+      "rating": 5,
+      "category": "Wildlife"
+    },
+    {
+      "id": 13,
+      "name": "Vietnam Discovery",
+      "destination": "Hanoi, Vietnam",
+      "image": "https://images.unsplash.com/photo-1557750255-c76072a7aad1?auto=format&fit=crop&w=1600&q=80",
+      "description": "Explore ancient temples, cruise Ha Long Bay, and savor authentic Vietnamese cuisine.",
+      "price": 1300,
+      "durationDays": 11,
+      "rating": 4.7,
+      "category": "Cultural"
+    },
+    {
+      "id": 14,
+      "name": "Iceland Ring Road",
+      "destination": "Reykjavik, Iceland",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRSpeKTrdzwM0-BD3czgGX6DIP25uvVGyhk4Q&s",
+      "description": "Drive through dramatic landscapes of waterfalls, glaciers, and volcanic beaches.",
+      "price": 2700,
+      "durationDays": 10,
+      "rating": 4.8,
+      "category": "Nature"
+    },
+    {
+      "id": 15,
+      "name": "Caribbean Paradise",
+      "destination": "Maldives",
+      "image": "https://images.unsplash.com/photo-1514282401047-d79a71a590e8?auto=format&fit=crop&w=1600&q=80",
+      "description": "Stay in overwater bungalows and enjoy world-class snorkeling and diving.",
+      "price": 4200,
+      "durationDays": 7,
+      "rating": 4.9,
+      "category": "Luxury"
+    },
+    {
+      "id": 16,
+      "name": "Dubai Luxury",
+      "destination": "Dubai, UAE",
+      "image": "https://images.unsplash.com/photo-1512453979798-5ea266f8880c?auto=format&fit=crop&w=1600&q=80",
+      "description": "Experience modern luxury, desert safaris, and traditional Arabian culture.",
+      "price": 3000,
+      "durationDays": 6,
+      "rating": 4.2,
+      "category": "Luxury"
+    },
+    {
+      "id": 17,
+      "name": "Croatian Coast",
+      "destination": "Dubrovnik, Croatia",
+      "image": "https://t4.ftcdn.net/jpg/03/38/19/97/360_F_338199724_9RKOViMBaIgCGVTDX4zHNxdCLedYN71N.jpg",
+      "description": "Walk ancient city walls, island hop in the Adriatic, and explore Game of Thrones filming locations.",
+      "price": 1700,
+      "durationDays": 9,
+      "rating": 4.6,
+      "category": "Beach"
+    },
+    {
+      "id": 18,
+      "name": "Thai Island Hopping",
+      "destination": "Phuket, Thailand",
+      "image": "https://cdn.kimkim.com/files/a/content_articles/featured_photos/68a5311d36fe342ab5a45c89753bc88c7cf8ecd7/big-f88375da4e51b8fa82f7a0356b563ca0.jpg",
+      "description": "Experience tropical beaches, limestone cliffs, and vibrant marine life.",
+      "price": 1400,
+      "durationDays": 12,
+      "rating": 4.5,
+      "category": "Beach"
+    },
+    {
+      "id": 19,
+      "name": "Scottish Highlands",
+      "destination": "Edinburgh, Scotland",
+      "image": "https://images.unsplash.com/photo-1520531158340-44015069e78e?auto=format&fit=crop&w=1600&q=80",
+      "description": "Explore historic castles, misty mountains, and legendary lochs.",
+      "price": 1900,
+      "durationDays": 8,
+      "rating": 4.7,
+      "category": "Mountain"
+    },
+    {
+      "id": 20,
+      "name": "South African Wine Country",
+      "destination": "Cape Town, South Africa",
+      "image": "https://www.wineenthusiast.com/wp-content/uploads/2024/05/05_24_Stellenbosch_HERO_GettyImages-1358173907_1920x1280-1024x683.jpg",
+      "description": "Wine tasting, coastal drives, and Table Mountain adventures.",
+      "price": 2200,
+      "durationDays": 10,
+      "rating": 4.6,
+      "category": "Food & Wine"
+    },
+    {
+      "id": 21,
+      "name": "Chilean Patagonia",
+      "destination": "Torres del Paine, Chile",
+      "image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/15/5c/38/15/torres-del-paine-national.jpg?w=600&h=400&s=1",
+      "description": "Trek through stunning mountains, glaciers, and pristine wilderness.",
+      "price": 3100,
+      "durationDays": 11,
+      "rating": 4.9,
+      "category": "Mountain"
+    },
+    {
+      "id": 22,
+      "name": "Kyoto Cultural Journey",
+      "destination": "Kyoto, Japan",
+      "image": "https://images.unsplash.com/photo-1493976040374-85c8e12f0c0e?auto=format&fit=crop&w=1600&q=80",
+      "description": "Visit ancient temples, traditional tea houses, and serene gardens.",
+      "price": 2300,
+      "durationDays": 8,
+      "rating": 4.8,
+      "category": "Cultural"
+    },
+    {
+      "id": 23,
+      "name": "Amalfi Coast Drive",
+      "destination": "Positano, Italy",
+      "image": "https://images.squarespace-cdn.com/content/v1/62681a0c1b9b025bc7d3d1cb/1651418824279-V1KN3BLDV2LT7AVDQP3Y/52883b7e-ef20-438a-bc38-4859ca0246ba.jpg",
+      "description": "Drive along stunning coastlines, visit charming villages, and enjoy Italian cuisine.",
+      "price": 2600,
+      "durationDays": 7,
+      "rating": 4.7,
+      "category": "Beach"
+    },
+    {
+      "id": 24,
+      "name": "Jordan Heritage Tour",
+      "destination": "Petra, Jordan",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS4qTST47e2TEsFsvIl5XeYFmz2WPLZRwREVg&s",
+      "description": "Discover the ancient city of Petra, float in the Dead Sea, and camp in Wadi Rum.",
+      "price": 1800,
+      "durationDays": 9,
+      "rating": 4.8,
+      "category": "Historical"
+    },
+    {
+      "id": 25,
+      "name": "Amazon Rainforest Expedition",
+      "destination": "Manaus, Brazil",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcReMTrjxB64OZqz8M-Fie6jPWoH3Mb37J4bpA&s",
+      "description": "Explore the world's largest rainforest and meet indigenous communities.",
+      "price": 2900,
+      "durationDays": 10,
+      "rating": 4.6,
+      "category": "Wildlife"
+    },
+    {
+      "id": 26,
+      "name": "Cambodian Temples",
+      "destination": "Siem Reap, Cambodia",
+      "image": "https://images.unsplash.com/photo-1559592413-7cec4d0cae2b?auto=format&fit=crop&w=1600&q=80",
+      "description": "Explore Angkor Wat and ancient temple complexes at sunrise and sunset.",
+      "price": 1200,
+      "durationDays": 6,
+      "rating": 4.7,
+      "category": "Historical"
+    },
+    {
+      "id": 27,
+      "name": "Spanish Fiesta",
+      "destination": "Barcelona, Spain",
+      "image": "https://images.unsplash.com/photo-1583422409516-2895a77efded?auto=format&fit=crop&w=1600&q=80",
+      "description": "Experience Gaudi architecture, tapas culture, and Mediterranean beaches.",
+      "price": 1700,
+      "durationDays": 8,
+      "rating": 4.5,
+      "category": "City Break"
+    },
+    {
+      "id": 28,
+      "name": "Turkish Delight",
+      "destination": "Istanbul, Turkey",
+      "image": "https://images.unsplash.com/photo-1527838832700-5059252407fa?auto=format&fit=crop&w=1600&q=80",
+      "description": "Explore the Grand Bazaar, ancient mosques, and cruise the Bosphorus.",
+      "price": 1500,
+      "durationDays": 7,
+      "rating": 4.4,
+      "category": "Cultural"
+    },
+    {
+      "id": 29,
+      "name": "Canadian Rockies",
+      "destination": "Banff, Canada",
+      "image": "https://images.unsplash.com/photo-1609861517208-e5b7b4cd4b87?auto=format&fit=crop&w=1600&q=80",
+      "description": "Discover turquoise lakes, snow-capped peaks, and abundant wildlife.",
+      "price": 2400,
+      "durationDays": 9,
+      "rating": 4.9,
+      "category": "Mountain"
+    },
+    {
+      "id": 30,
+      "name": "Kerala Backwaters",
+      "destination": "Kerala, India",
+      "image": "https://images.unsplash.com/photo-1602216056096-3b40cc0c9944?auto=format&fit=crop&w=1600&q=80",
+      "description": "Cruise on traditional houseboats, visit spice plantations, and relax on beaches.",
+      "price": 1300,
+      "durationDays": 10,
+      "rating": 4.8,
+      "category": "Nature"
+    },
+    {
+      "id": 31,
+      "name": "New Zealand Adventure",
+      "destination": "Queenstown, New Zealand",
+      "image": "https://images.unsplash.com/photo-1507699622108-4be3abd695ad?auto=format&fit=crop&w=1600&q=80",
+      "description": "Bungee jump, ski, and explore Lord of the Rings filming locations.",
+      "price": 3200,
+      "durationDays": 14,
+      "rating": 4.9,
+      "category": "Adventure"
+    },
+    {
+      "id": 32,
+      "name": "Austrian Alps",
+      "destination": "Salzburg, Austria",
+      "image": "https://images.unsplash.com/photo-1516550893923-42d28e5677af?auto=format&fit=crop&w=1600&q=80",
+      "description": "Sound of Music tours, alpine hiking, and classical music heritage.",
+      "price": 1800,
+      "durationDays": 7,
+      "rating": 4.6,
+      "category": "Mountain"
+    },
+    {
+      "id": 33,
+      "name": "Mexican Rivera",
+      "destination": "Tulum, Mexico",
+      "image": "https://images.unsplash.com/photo-1504730655501-24c39ac53f0e?auto=format&fit=crop&w=1600&q=80",
+      "description": "Ancient ruins, cenotes, and pristine Caribbean beaches.",
+      "price": 1600,
+      "durationDays": 8,
+      "rating": 4.5,
+      "category": "Beach"
+    },
+    {
+      "id": 34,
+      "name": "Swedish Lapland",
+      "destination": "Kiruna, Sweden",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT9K1vcsUcWAJP60K_P3CZasqlo6KfFuR_fLw&s",
+      "description": "Stay in ice hotels, dog sledding, and northern lights viewing.",
+      "price": 2800,
+      "durationDays": 6,
+      "rating": 4.8,
+      "category": "Adventure"
+    },
+    {
+      "id": 35,
+      "name": "Namibian Desert Safari",
+      "destination": "Sossusvlei, Namibia",
+      "image": "https://cloudfront.safaribookings.com/blog/2020/05/09-top-10-interesting-namib-desert-facts-BW-800px.jpg",
+      "description": "Red sand dunes, stargazing, and desert wildlife encounters.",
+      "price": 2700,
+      "durationDays": 9,
+      "rating": 4.7,
+      "category": "Desert"
+    },
+    {
+      "id": 36,
+      "name": "Irish Countryside",
+      "destination": "Dublin, Ireland",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRCUcw7_NxqxszasZT0K88oKAQt7uk9NTZu1w&s",
+      "description": "Castle stays, coastal drives, and traditional pub culture.",
+      "price": 1700,
+      "durationDays": 8,
+      "rating": 4.5,
+      "category": "Cultural"
+    },
+    {
+      "id": 37,
+      "name": "Sri Lankan Heritage",
+      "destination": "Colombo, Sri Lanka",
+      "image": "https://ignitetravelsolution.com/wp-content/uploads/2025/01/Sri-Lanka-World-Heritage.jpg",
+      "description": "Ancient temples, tea plantations, and elephant safaris.",
+      "price": 1400,
+      "durationDays": 11,
+      "rating": 4.6,
+      "category": "Cultural"
+    },
+    {
+      "id": 38,
+      "name": "Argentinian Wine Trail",
+      "destination": "Mendoza, Argentina",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS8GCJDqM5NUOcDvtPlM-UeBoXR2ZOo8KUBEw&s",
+      "description": "Wine tasting, Andes mountains, and traditional gaucho culture.",
+      "price": 2100,
+      "durationDays": 8,
+      "rating": 4.7,
+      "category": "Food & Wine"
+    },
+    {
+      "id": 39,
+      "name": "Egyptian Wonders",
+      "destination": "Cairo, Egypt",
+      "image": "https://images.unsplash.com/photo-1572252009286-268acec5ca0a?auto=format&fit=crop&w=1600&q=80",
+      "description": "Pyramids, Nile cruises, and ancient temple explorations.",
+      "price": 1900,
+      "durationDays": 10,
+      "rating": 4.6,
+      "category": "Historical"
+    },
+    {
+      "id": 40,
+      "name": "Malta Mediterranean Magic",
+      "destination": "Valletta, Malta",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQM-Lvs21KcgbtY-PbJacbt6C2NSygCdZC7CQ&s",
+      "description": "Historic cities, blue lagoons, and Game of Thrones locations.",
+      "price": 1500,
+      "durationDays": 7,
+      "rating": 4.3,
+      "category": "Historical"
+    },
+    {
+      "id": 41,
+      "name": "Finnish Lakeland",
+      "destination": "Helsinki, Finland",
+      "image": "https://media.kensingtontours.com/image/upload/g_auto,f_auto,q_auto,w_1192,h_700,c_fill/kt/live/pictures/europe/scandinavia/finland/locale/finnish-lake",
+      "description": "Sauna experiences, lake cottages, and midnight sun.",
+      "price": 2200,
+      "durationDays": 8,
+      "rating": 4.5,
+      "category": "Nature"
+    },
+    {
+      "id": 42,
+      "name": "Madagascar Wildlife",
+      "destination": "Antananarivo, Madagascar",
+      "image": "https://www.responsiblevacation.com/imagesClient/4148_2772.jpg",
+      "description": "Unique wildlife, rainforests, and pristine beaches.",
+      "price": 2600,
+      "durationDays": 12,
+      "rating": 4.7,
+      "category": "Wildlife"
+    },
+    {
+      "id": 43,
+      "name": "Bhutanese Kingdom",
+      "destination": "Thimphu, Bhutan",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSq5Czcxk9bJ7rlUBF23EA6oZE6hJnMBNgRcA&s",
+      "description": "Buddhist monasteries, mountain treks, and cultural festivals.",
+      "price": 3300,
+      "durationDays": 9,
+      "rating": 4.9,
+      "category": "Cultural"
+    },
+    {
+      "id": 44,
+      "name": "Slovenia Lake Tour",
+      "destination": "Lake Bled, Slovenia",
+      "image": "https://images.unsplash.com/photo-1553697388-94e804e2f0f6?auto=format&fit=crop&w=1600&q=80",
+      "description": "Alpine lakes, medieval castles, and cave exploring.",
+      "price": 1600,
+      "durationDays": 7,
+      "rating": 4.6,
+      "category": "Nature"
+    },
+    {
+      "id": 45,
+      "name": "Costa Rican Paradise",
+      "destination": "San José, Costa Rica",
+      "image": "https://images.unsplash.com/photo-1518509562904-e7ef99cdcc86?auto=format&fit=crop&w=1600&q=80",
+      "description": "Rainforest zip-lining, volcano hikes, and beach relaxation.",
+      "price": 1800,
+      "durationDays": 10,
+      "rating": 4.7,
+      "category": "Adventure"
+    },
+    {
+      "id": 46,
+      "name": "Polish Heritage",
+      "destination": "Krakow, Poland",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQW4NkAx7xK5XYMKUBawB218godmmXPazfo7A&s",
+      "description": "Medieval markets, salt mines, and historical sites.",
+      "price": 1300,
+      "durationDays": 6,
+      "rating": 4.4,
+      "category": "Historical"
+    },
+    {
+      "id": 47,
+      "name": "Taiwan Discovery",
+      "destination": "Taipei, Taiwan",
+      "image": "https://images.unsplash.com/photo-1548115184-bc6544d06a58?auto=format&fit=crop&w=1600&q=80",
+      "description": "Night markets, mountain hot springs, and temple hopping.",
+      "price": 1700,
+      "durationDays": 8,
+      "rating": 4.5,
+      "category": "Cultural"
+    },
+    {
+      "id": 48,
+      "name": "Mozambique Beach Life",
+      "destination": "Vilankulo, Mozambique",
+      "image": "https://artofsafari.travel/wp-content/uploads/2017/09/BANNER_Stock_Mozambique_Quirimbas_JustinFox-600x600.jpg",
+      "description": "Island hopping, dhow safaris, and pristine beaches.",
+      "price": 2400,
+      "durationDays": 9,
+      "rating": 4.6,
+      "category": "Beach"
+    },
+    {
+      "id": 49,
+      "name": "Georgian Wine Valley",
+      "destination": "Tbilisi, Georgia",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT0mmLdaM0CjSqKaNTUp7z5PbgV89GzWaijcg&s",
+      "description": "Ancient wineries, mountain monasteries, and traditional feasts.",
+      "price": 1400,
+      "durationDays": 7,
+      "rating": 4.7,
+      "category": "Food & Wine"
+    },
+    {
+      "id": 50,
+      "name": "Bulgarian Mountains",
+      "destination": "Sofia, Bulgaria",
+      "image": "https://www.adventurealternative.com/wp-content/uploads/2024/05/bulgaria-2.jpg",
+      "description": "Rila Monastery, mountain hiking, and thermal springs.",
+      "price": 1200,
+      "durationDays": 6,
+      "rating": 4.3,
+      "category": "Mountain"
+    },
+    {
+      "id": 51,
+      "name": "Uruguay Coast",
+      "destination": "Montevideo, Uruguay",
+      "image": "https://images.unsplash.com/photo-1581974944026-5d6ed762f617?auto=format&fit=crop&w=1600&q=80",
+      "description": "Colonial towns, gaucho culture, and Atlantic beaches.",
+      "price": 1900,
+      "durationDays": 8,
+      "rating": 4.2,
+      "category": "Beach"
+    },
+    {
+      "id": 52,
+      "name": "Laos River Journey",
+      "destination": "Luang Prabang, Laos",
+      "image": "https://images.unsplash.com/photo-1540611025311-01df3cef54b5?auto=format&fit=crop&w=1600&q=80",
+      "description": "Buddhist temples, Mekong cruises, and night markets.",
+      "price": 1300,
+      "durationDays": 9,
+      "rating": 4.6,
+      "category": "Cultural"
+    },
+    {
+      "id": 53,
+      "name": "Ethiopian History",
+      "destination": "Addis Ababa, Ethiopia",
+      "image": "https://images.unsplash.com/photo-1573843981267-be1999ff37cd?auto=format&fit=crop&w=1600&q=80",
+      "description": "Rock-hewn churches, coffee ceremonies, and ancient history.",
+      "price": 1800,
+      "durationDays": 10,
+      "rating": 4.5,
+      "category": "Historical"
+    },
+    {
+      "id": 54,
+      "name": "Luxembourg Castle Route",
+      "destination": "Luxembourg City, Luxembourg",
+      "image": "https://images.unsplash.com/photo-1587974928442-77dc3e0dba72?auto=format&fit=crop&w=1600&q=80",
+      "description": "Medieval castles, wine valleys, and European history.",
+      "price": 1600,
+      "durationDays": 5,
+      "rating": 4.1,
+      "category": "Historical"
+    },
+    {
+      "id": 55,
+      "name": "Omani Desert",
+      "destination": "Muscat, Oman",
+      "image": "https://images.unsplash.com/photo-1485081669829-bacb8c7bb1f3?auto=format&fit=crop&w=1600&q=80",
+      "description": "Desert camping, ancient forts, and wadis exploration.",
+      "price": 2200,
+      "durationDays": 8,
+      "rating": 4.7,
+      "category": "Desert"
+    },
+    {
+      "id": 56,
+      "name": "Albanian Riviera",
+      "destination": "Tirana, Albania",
+      "image": "https://i.natgeofe.com/n/3b1e48ae-447c-4d8a-a298-1509e634c85a/GettyImages-2104546749.jpg",
+      "description": "Mediterranean beaches, historic sites, and mountain villages.",
+      "price": 1100,
+      "durationDays": 7,
+      "rating": 4.4,
+      "category": "Beach"
+    },
+    {
+      "id": 57,
+      "name": "Golden Triangle Tour",
+      "destination": "Delhi, Agra, Jaipur, India",
+      "image": "https://images.unsplash.com/photo-1564507592333-c60657eea523?auto=format&fit=crop&w=1600&q=80",
+      "description": "Discover India's iconic Golden Triangle. Explore historic Delhi, marvel at the Taj Mahal, and experience the royal grandeur of Jaipur.",
+      "price": 1500,
+      "durationDays": 8,
+      "rating": 4.8,
+      "category": "Historical"
+    },
+    {
+      "id": 58,
+      "name": "Rajasthan Royal Desert",
+      "destination": "Jaisalmer, India",
+      "image": "https://images.unsplash.com/photo-1605285223961-06785160b7a4?auto=format&fit=crop&w=1600&q=80",
+      "description": "Ride camels through the golden sands of the Thar Desert, stay in a desert camp under the stars, and explore the magnificent Jaisalmer Fort.",
+      "price": 1600,
+      "durationDays": 7,
+      "rating": 4.7,
+      "category": "Desert"
+    },
+    {
+      "id": 59,
+      "name": "Himalayan Heights Trek",
+      "destination": "Manali, India",
+      "image": "https://images.unsplash.com/photo-1626621341517-bbf3d9990a23?auto=format&fit=crop&w=1600&q=80",
+      "description": "Trek through breathtaking Himalayan landscapes, visit ancient monasteries, and experience the serene beauty of the Kullu Valley.",
+      "price": 1800,
+      "durationDays": 9,
+      "rating": 4.9,
+      "category": "Mountain"
+    },
+    {
+      "id": 60,
+      "name": "Goa Beach Bliss",
+      "destination": "Goa, India",
+      "image": "https://images.unsplash.com/photo-1560179406-1f636823b7b8?auto=format&fit=crop&w=1600&q=80",
+      "description": "Relax on sun-kissed beaches, enjoy vibrant nightlife, and savor delicious seafood in India's premier beach destination.",
+      "price": 1100,
+      "durationDays": 7,
+      "rating": 4.5,
+      "category": "Beach"
+    },
+    {
+      "id": 61,
+      "name": "Varanasi Spiritual Sojourn",
+      "destination": "Varanasi, India",
+      "image": "https://images.unsplash.com/photo-1561361081-34b34a6e275f?auto=format&fit=crop&w=1600&q=80",
+      "description": "Witness ancient rituals on the banks of the sacred Ganges River, explore narrow alleyways, and experience the spiritual heart of India.",
+      "price": 1000,
+      "durationDays": 5,
+      "rating": 4.6,
+      "category": "Cultural"
+    },
+    {
+      "id": 62,
+      "name": "Ladakh High-Altitude Adventure",
+      "destination": "Leh, Ladakh, India",
+      "image": "https://images.unsplash.com/photo-1588155921517-734ad53457b9?auto=format&fit=crop&w=1600&q=80",
+      "description": "Journey to the 'Land of High Passes'. Discover dramatic mountain scenery, serene lakes, and ancient Buddhist monasteries.",
+      "price": 2500,
+      "durationDays": 10,
+      "rating": 4.9,
+      "category": "Adventure"
+    },
+    {
+      "id": 63,
+      "name": "South Indian Temple Trail",
+      "destination": "Madurai, India",
+      "image": "https://images.unsplash.com/photo-1593714856331-23c53b236894?auto=format&fit=crop&w=1600&q=80",
+      "description": "Explore the magnificent and colorful temples of Tamil Nadu, witness ancient traditions, and immerse yourself in Dravidian culture.",
+      "price": 1700,
+      "durationDays": 9,
+      "rating": 4.7,
+      "category": "Cultural"
+    },
+    {
+      "id": 64,
+      "name": "Rishikesh Yoga & Adventure",
+      "destination": "Rishikesh, India",
+      "image": "https://images.unsplash.com/photo-1609738018808-a5535a297906?auto=format&fit=crop&w=1600&q=80",
+      "description": "Find your balance with yoga in the Himalayas, and get your adrenaline pumping with white-water rafting on the Ganges.",
+      "price": 1200,
+      "durationDays": 6,
+      "rating": 4.6,
+      "category": "Adventure"
+    },
+    {
+      "id": 65,
+      "name": "Mumbai City of Dreams",
+      "destination": "Mumbai, India",
+      "image": "https://images.unsplash.com/photo-1562979314-1ace75b15388?auto=format&fit=crop&w=1600&q=80",
+      "description": "Experience the vibrant energy of Mumbai, from Bollywood glamour and historic landmarks to bustling markets and delicious street food.",
+      "price": 1400,
+      "durationDays": 5,
+      "rating": 4.5,
+      "category": "City Break"
+    },
+    {
+      "id": 66,
+      "name": "Sundarbans Tiger Safari",
+      "destination": "West Bengal, India",
+      "image": "https://images.unsplash.com/photo-1616854131945-8f22495b6050?auto=format&fit=crop&w=1600&q=80",
+      "description": "Navigate the dense mangrove forests of the Sundarbans, the world's largest delta, in search of the elusive Royal Bengal Tiger.",
+      "price": 2100,
+      "durationDays": 6,
+      "rating": 4.8,
+      "category": "Wildlife"
+    }
+  ]
+}
